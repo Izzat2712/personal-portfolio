@@ -54,6 +54,10 @@ function ExternalLink({
   );
 }
 
+function getLinkVariant(value: string | undefined): "primary" | "secondary" {
+  return value === "secondary" ? "secondary" : "primary";
+}
+
 export default function Home() {
   const {
     about,
@@ -341,7 +345,7 @@ export default function Home() {
                   <ExternalLink
                     key={action.href}
                     href={action.href}
-                    variant={action.variant}
+                    variant={getLinkVariant(action.variant)}
                   >
                     {action.label}
                   </ExternalLink>
