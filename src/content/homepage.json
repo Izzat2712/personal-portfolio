@@ -1,0 +1,137 @@
+{
+  "profile": {
+    "name": "Izzat Zakhir",
+    "role": "I am a third year student at Universiti Putra Malaysia and pursuing a degree in Computer and Communication Systems Engineering ",
+    "intro": "I have big passion in esports and sports especially involving analytics. Because of that, I have been building projects that are focused on sports and esports analytics. I am always looking for ways to turn complex stats into interfaces that feel approachable and easy to scan. ",
+    "location": "Malaysia",
+    "availability": "Open to internships, freelance work, and collaborative side projects",
+    "github": "https://github.com/Izzat2712",
+    "linkedin": "https://www.linkedin.com/in/izzat-zakhir-673b99321/",
+    "email": "mailto:izzatzakhir2018@gmail.com"
+  },
+  "navigation": [
+    { "label": "Projects", "href": "#projects" },
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "eyebrow": "Personal Portfolio",
+    "title": "Building sports products that make complex stats feel simple.",
+    "primaryCtaLabel": "See projects",
+    "primaryCtaHref": "#projects",
+    "secondaryCtaLabel": "GitHub",
+    "secondaryCtaHref": "https://github.com/Izzat2712",
+    "stats": [
+      {
+        "label": "Current focus",
+        "value": "Sports analytics"
+      },
+      {
+        "label": "Based in",
+        "value": "Malaysia"
+      },
+      {
+        "label": "Availability",
+        "value": "Open for 10 weeks internship relating to Computer and Communication Systems Engineering field"
+      }
+    ]
+  },
+  "snapshot": {
+    "label": "Snapshot",
+    "badge": "2026",
+    "values": [
+      {
+        "title": "Stats that stay readable",
+        "text": "I like turning large datasets into interfaces that feel easy to scan instead of intimidating."
+      },
+      {
+        "title": "Built around real fans",
+        "text": "The best sports products respect urgency, curiosity, and the way people naturally jump between overview and deep dive."
+      },
+      {
+        "title": "Flexible by design",
+        "text": "I enjoy building products that can support both casual browsing and power-user exploration without feeling messy."
+      }
+    ]
+  },
+  "projectsSection": {
+    "label": "Projects",
+    "title": "Two projects, one clear direction.",
+    "copy": "These builds show the kind of work I want to keep pushing forward: sports products with strong information design, clear interaction patterns, and interfaces that help users move naturally between overview and analysis."
+  },
+  "projects": [
+    {
+      "title": "MPL MY Statistics Dashboard",
+      "type": "Esports stats platform",
+      "year": "2025",
+      "summary": "A multi-season MPL MY website built to help fans explore schedules, standings, rosters, hero stats, and matchup context without getting buried in raw tables.",
+      "impact": "Takes league data from two seasons and turns it into a cleaner experience with season-aware routing, deeper player views, and comparison tools.",
+      "stack": ["HTML", "CSS", "JavaScript", "JSON", "Vercel"],
+      "highlights": [
+        "Supports MPL MY Season 16 and Season 17 with direct-link season routing",
+        "Includes schedules, team standings, player stats, heroes, hero pool, player pool, and head-to-head tools",
+        "Uses popups and filters to keep a large stats surface browsable on desktop and mobile"
+      ],
+      "live": "https://mplmystats.vercel.app",
+      "source": "https://github.com/Izzat2712/mpl-my-stats"
+    },
+    {
+      "title": "F1 Dual Analytics",
+      "type": "Dual-mode analytics product",
+      "year": "2026",
+      "summary": "A Formula 1 analytics platform with two experiences in one product: Casual Mode for fast race-weekend browsing and Nerd Mode for engineering-style breakdowns.",
+      "impact": "Combines a React frontend with a FastAPI backend so users can move from standings and results into telemetry, tyre strategy, lap comparison, and simulation tools.",
+      "stack": ["React", "Vite", "Recharts", "FastAPI", "Python", "Vercel"],
+      "highlights": [
+        "Covers seasons from 2021 to 2026 with round-level navigation and responsive layouts",
+        "Ships telemetry, tyre strategy, H2H, race engineer, and prediction-focused views for deeper analysis",
+        "Blends fan-friendly browsing with data-heavy workflows instead of forcing a single interface style"
+      ],
+      "live": "https://f1-dual-analytics.vercel.app",
+      "source": "https://github.com/Izzat2712/f1-dual-analytics"
+    }
+  ],
+  "about": {
+    "label": "About",
+    "title": "I like shaping data into something people can actually use.",
+    "copy": "A lot of my current work sits inside sports and esports because those spaces demand quick scanning, strong hierarchy, and interfaces that still hold up when the data gets dense.",
+    "points": [
+      "MPL MY Statistics Dashboard shows how I handle broad feature surfaces with filters, modals, and multi-season content.",
+      "F1 Dual Analytics shows that I can also think in systems, separating casual browsing from deeper technical analysis in the same product.",
+      "Across both projects, the common thread is making information-rich experiences feel fast, intentional, and approachable."
+    ]
+  },
+  "skillsSection": {
+    "label": "Skills",
+    "title": "What I bring to a project.",
+    "copy": "My edge is strongest when interface design, frontend implementation, and information-heavy content need to work together instead of being treated separately."
+  },
+  "strengths": [
+    "Responsive frontend development",
+    "Sports dashboards and stat-heavy UI",
+    "Visual hierarchy for dense information",
+    "React, TypeScript, and modern web workflows",
+    "Data storytelling and comparison views",
+    "Fan-first product thinking"
+  ],
+  "contact": {
+    "label": "Contact",
+    "title": "Let's build products that are clear, fast, and worth exploring.",
+    "copy": "Open to internships, freelance work, and collaborative side projects. You can reach me directly by email, connect with me on LinkedIn, or explore more of my work on GitHub.",
+    "emailLabel": "Email",
+    "emailValue": "izzatzakhir2018@gmail.com",
+    "actions": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/izzat-zakhir-673b99321/",
+        "variant": "secondary"
+      },
+      {
+        "label": "View GitHub",
+        "href": "https://github.com/Izzat2712",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
